@@ -1,5 +1,5 @@
 from huffman_code import HuffmanCode
-from symbol_code import BinaryEnsemble
+from symbol_ensemble import BinaryEnsemble
 
 x2 = BinaryEnsemble(0.9, 0.1, 2, "X2")
 x3 = BinaryEnsemble(0.9, 0.1, 3, "X3")
