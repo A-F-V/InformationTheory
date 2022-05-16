@@ -1,10 +1,8 @@
 
 from math import log2
 from abc import abstractmethod
-from ast import List
 from typing import Callable, Dict, NewType, Literal
 
-from sqlalchemy import Float
 
 
 # We only conside symbols as only lower case letter, digits and $
@@ -20,7 +18,13 @@ CodeWord = NewType('SymbolWord', str)
 #        self.p = probabilities  # From Symbol+ to Symbol+
 #        self.name = name
 
+class ErrorCorrectingCode:
+    """A class for error correcting codes. 
+    """
 
+    def __init__():
+        pass
+    
 class SymbolCode:
     """A Class for Symbol Codes. Symbols/Codewords are stored with their relative probabilities
     """
